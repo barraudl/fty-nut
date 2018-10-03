@@ -35,6 +35,7 @@
 #include <ftyproto.h>
 #include <libcidr.h>
 #include <cxxtools/allocator.h>
+#include <fty_shm.h>
 #include <nutclient.h>
 
 //  FTY_NUT version macros for compile-time API detection

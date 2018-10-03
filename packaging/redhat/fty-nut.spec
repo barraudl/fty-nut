@@ -58,6 +58,7 @@ BuildRequires:  malamute-devel
 BuildRequires:  fty-proto-devel
 BuildRequires:  libcidr-devel
 BuildRequires:  cxxtools-devel
+BuildRequires:  fty_shm-devel
 BuildRequires:  nut-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 
@@ -89,6 +90,7 @@ Requires:       malamute-devel
 Requires:       fty-proto-devel
 Requires:       libcidr-devel
 Requires:       cxxtools-devel
+Requires:       fty_shm-devel
 Requires:       nut-devel
 
 %description devel
